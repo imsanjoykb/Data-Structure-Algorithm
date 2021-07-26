@@ -61,7 +61,7 @@ print(stack_de)
 '''Exaple Of Stack Implementation'''
 print('-------------Exaple Of Stack Implementation---------------')
 
-class stack():
+class Stack():
     def __init__(self):
         self.items = []
 
@@ -71,5 +71,28 @@ class stack():
     def pop(self):
         return self.items.pop()
 
-    
+    def is_emppty(self):
+        return self.items == []
+
+    def peek(self):
+        if not self.is_emppty():
+            return self.items[-1]
+
+    def get_stack(self):
+        return self.items
+
+myStack = Stack()
+myStack.push('Java')
+myStack.push('Python')
+myStack.push('Dart')
+myStack.push('JavaScript')
+
+print(myStack)
+
+print('----test----')
+print(myStack.peek())
+print(myStack.is_emppty())
+print(myStack.get_stack())
+
+
 
