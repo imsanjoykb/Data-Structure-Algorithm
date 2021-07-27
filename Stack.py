@@ -8,7 +8,7 @@ push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity
 pop() – Deletes the top most element of the stack – Time Complexity : O(1)
 '''
 
-#Implementation using list:
+'''Implementation using list:'''
 print('----------Implementation using list-------------')
 stack = []
 
