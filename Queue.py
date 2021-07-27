@@ -37,6 +37,29 @@ print(que)
 
 '''Implementation Using List'''
 print('--------------Implementation Using List----------------')
+from collections import deque
+
+q = deque()
+
+q.append('ML')
+q.append('DS')
+q.append('Soft')
+q.append('Networking')
+
+print(q)
+
+print(q.popleft())
+print(q)
+
+print(q.popleft())
+print(q)
+
+print(q.popleft())
+print(q)
+
+print(q.popleft())
+print(q)
+
 
 
 
