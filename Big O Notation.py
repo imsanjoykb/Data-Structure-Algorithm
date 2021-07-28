@@ -21,18 +21,46 @@ def constant_algo(items):
 constant_algo([2,4,5,6])
 
 
-'''----------Example = 2 ----------'''
-import matplotlib.pyplot as plt
-import numpy as np
 
-x = [2, 4, 6, 8, 10, 12]
+'''----------Linear Complexity------------'''
 
-y = [2, 2, 2, 2, 2, 2]
+def linear_algo(items):
+    for item in items:
+        print(item)
 
-plt.plot(x, y, 'b')
-plt.xlabel('Inputs')
-plt.ylabel('Steps')
-plt.title('Constant Complexity')
-plt.show()
+linear_algo([4,5,7,9])
 
 
+'''----------Quardratic Complexity-----------'''
+
+def quadratic_algo(items):
+    for item in items:
+        for item2 in items:
+            print(item, ' ' , item)
+quadratic_algo([3,4,6,8,9])
+
+'''----------Complex Algorithm------------------'''
+
+def complex_algo(items):
+
+    for i in range(5):
+        print('Python is awesome')
+
+    for item in items:
+        print(item)
+
+    print('Big O')
+
+complex_algo([4,5,7.6])
+
+
+'''---------- Worst vs Best Case Complexity --------------'''
+def search_algo(num, items):
+    for item in items:
+        if item == num:
+            return True
+        else:
+            return False
+nums = [2, 4, 6, 8, 10]
+
+print(search_algo(2, nums))
