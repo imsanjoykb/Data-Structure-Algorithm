@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Graph_ds_algo">
+  <component name="RunManager" selected="Python.Recursion">
     <configuration name="Binary_search_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Recursion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data Structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selection_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Recursion" />
         <item itemvalue="Python.Graph_ds_algo" />
         <item itemvalue="Python.Binary_search_algo" />
         <item itemvalue="Python.Linear_Search_Algo" />
         <item itemvalue="Python.Insertion_sort_algo" />
-        <item itemvalue="Python.Selection_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -199,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1627822354660" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1628227853993">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1628309697007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1628227853993" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1628309697007" />
     <state x="531" y="257" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1627819255212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
